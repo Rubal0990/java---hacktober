@@ -1,33 +1,29 @@
-# Largest Element in Array 
+# Convert String to LowerCase
 
-Given an array **A[]** of size **n**. The task is to find the largest element in it.
+Given a string **S**. The task is to convert characters of string to **lowercase**.
 
 ### Examples:
 
 ```
-Input:
-n = 5
-A[] = {1, 8, 7, 56, 90}
-Output:
-90
-Explanation:
-The largest element of given array is 90.
+Input: S = "ABCddE"
+Output: "abcdde"
+Explanation: A, B, C and E are converted to
+a, b, c and E thus all uppercase characters 
+of the string converted to lowercase letter.
 ```
 
 ```
-Input:
-n = 7
-A[] = {1, 2, 0, 3, 2, 4, 5}
-Output:
-5
-Explanation:
-The largest element of given array is 5.
+Input: S = "LMNOppQQ"
+Output: "lmnoppqq"
+Explanation: L, M, N, O, and Q are 
+converted to l, m, n, o and q thus 
+all uppercase characters of the 
+string converted to lowercase letter.
 ```
 
 ### Contraints:
-* 1 <= n<= 103
-* 0 <= A[i] <= 103
-* Array may contain duplicate elements. 
+* 1 <= |S| <= 1000 
 
 ### Topic Tags:
-* Arrays
+* Java 
+* Strings
