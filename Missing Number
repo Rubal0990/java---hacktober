@@ -1,0 +1,16 @@
+class Solution {
+    public int missingNumber(int[] nums) {
+        int n = nums.length;
+        int tsum = n*(n+1)/2;
+        int mnos = 0;
+        
+        for(int i = 0; i < nums.length; i++){
+            mnos = mnos+nums[i];
+        }
+        
+       int missingnos = tsum-mnos;
+       return missingnos;
+        
+    }
+   
+}
